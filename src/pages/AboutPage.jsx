@@ -64,6 +64,9 @@ export default function AboutPage({ onOpenQuote }) {
                 className="w-full h-[440px] object-cover"
                 loading="lazy"
               />
+              <div className="absolute top-4 right-4 w-14 h-14 rounded-2xl bg-white/95 backdrop-blur-md border border-neutral-200/90 shadow-md p-1.5 flex items-center justify-center">
+                <img src="/logo.png" alt="Official Trade Badge" className="w-full h-full object-contain" />
+              </div>
 
               <div className="p-5 bg-white border-t border-neutral-100">
                 <div className="text-xs font-mono uppercase tracking-wider text-craft-accent font-bold">

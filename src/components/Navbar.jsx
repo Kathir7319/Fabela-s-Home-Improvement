@@ -38,11 +38,11 @@ export default function Navbar({ activePage, setActivePage, onOpenQuote }) {
             onClick={() => handleNavClick('home')}
             className="flex items-center gap-3 text-left group"
           >
-            <div className="w-10 h-10 rounded-xl overflow-hidden bg-white border border-neutral-200 shadow-sm flex items-center justify-center shrink-0 group-hover:border-[#E85D04] transition-colors p-0.5">
+            <div className="w-11 h-11 rounded-xl overflow-hidden bg-white border border-neutral-200/90 shadow-sm flex items-center justify-center shrink-0 group-hover:border-[#E85D04] transition-colors p-1">
               <img 
                 src="/logo.png" 
-                alt="Fabela's Logo" 
-                className="w-full h-full object-cover rounded-lg" 
+                alt="Fabela's Craftsman Shield Logo" 
+                className="w-full h-full object-contain" 
               />
             </div>
             <div>
