@@ -69,11 +69,15 @@ export default function Footer({ setActivePage, onOpenQuote }) {
           {/* Col 1: Profile */}
           <div className="space-y-4">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-neutral-950 text-white flex items-center justify-center font-display font-bold text-xs">
-                F
+              <div className="w-10 h-10 rounded-xl overflow-hidden bg-white border border-neutral-200 shadow-sm flex items-center justify-center shrink-0 p-0.5">
+                <img 
+                  src="/logo.png" 
+                  alt="Fabela's Logo" 
+                  className="w-full h-full object-cover rounded-lg" 
+                />
               </div>
               <div className="font-display font-extrabold text-base text-neutral-950">
-                FABELA<span className="text-craft-accent">'S</span>
+                FABELA<span className="text-[#E85D04]">'S</span>
               </div>
             </div>
 

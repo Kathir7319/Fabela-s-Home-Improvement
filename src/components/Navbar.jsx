@@ -38,12 +38,16 @@ export default function Navbar({ activePage, setActivePage, onOpenQuote }) {
             onClick={() => handleNavClick('home')}
             className="flex items-center gap-3 text-left group"
           >
-            <div className="w-8 h-8 rounded-lg bg-neutral-900 text-white flex items-center justify-center font-display font-extrabold text-sm tracking-wider">
-              F
+            <div className="w-10 h-10 rounded-xl overflow-hidden bg-white border border-neutral-200 shadow-sm flex items-center justify-center shrink-0 group-hover:border-[#E85D04] transition-colors p-0.5">
+              <img 
+                src="/logo.png" 
+                alt="Fabela's Logo" 
+                className="w-full h-full object-cover rounded-lg" 
+              />
             </div>
             <div>
               <div className="font-display font-extrabold text-base tracking-tight text-neutral-950 flex items-center gap-1">
-                <span>FABELA<span className="text-craft-accent">'S</span></span>
+                <span>FABELA<span className="text-[#E85D04]">'S</span></span>
               </div>
               <div className="text-[10px] tracking-wider text-neutral-500 font-mono uppercase">
                 Contractor Services LLC
