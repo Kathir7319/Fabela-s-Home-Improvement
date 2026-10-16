@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F1F0EC;
+  color: #202020;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle 2026 Architectural Dot Grid matching #292929 and #F1F0EC */
+.modern-grid {
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(41, 41, 41, 0.08) 1px, transparent 1px);
+}
+
+/* Pure White Cards with hairline subtle border */
+.modern-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E1DFD9;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modern-card:hover {
+  border-color: #D5D3CD;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F0EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5D3CD;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
+}
