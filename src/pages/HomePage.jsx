@@ -42,9 +42,9 @@ export default function HomePage({ setActivePage, onOpenQuote, onOpenQuoteWithSc
 
           {/* Main Title & Subhead */}
           <div className="text-center max-w-4xl mx-auto space-y-6">
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-display font-extrabold text-neutral-950 tracking-tight leading-[1.06]">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display font-extrabold text-neutral-950 tracking-tight leading-[1.12]">
               Professional Home Repairs &amp; Custom Welding{' '}
-              <span className="italic font-serif font-normal text-neutral-600">Built to Last.</span>
+              <span className="text-[#E85D04]">Built to Last.</span>
             </h1>
 
             {/* Subheadline (Blueprint Exact) */}
